@@ -2,11 +2,11 @@
 
 
 
-## Tweaks/System
+## System/Tweaks
 #### [NovaLauncher](https://novalauncher.com/beta)
-Lightweight, fast, support more gestures on home screen, highly customizable
+Lightweight, fast, support more gestures on home screen, highly customizable launcher.
 
-[ConfigurationBackup](../binary/2023-12-22_00-49.novabackup)
+[Configuration Backup](../binary/2023-12-22.novabackup)
 
 #### [Wavelet](https://play.google.com/store/apps/details?id=com.pittvandewitt.wavelet&hl=en&gl=US)
 System equalizer, bass tuner, loudness correction with authomatic BT devices profiles
@@ -61,7 +61,11 @@ If patching failed, try to patch some older recommended version of YT.
 - `KOReader` FB2, etc.. reader
 - `AnkiDroid` Repetative learning cards
 - `Barometer+` Simple barometer
-
+- [Cryptomator](https://cryptomator.org/android/) 
+Client-side encrypted storage synced with GDrive
+Use version from the site, as versions from F-Droid or PlayStore
+are not compiled with proprietary services (GDrive for ex.) support 
+- 
 #### Google
 - Maps
 - Authenticator
@@ -73,10 +77,7 @@ If patching failed, try to patch some older recommended version of YT.
 
 #### Other
 - Vivaldi
-- [Cryptomator](https://cryptomator.org/android/) 
-Client-side encrypted storage synced with GDrive
-Use version from the site, as versions from F-Droid or PlayStore
-are not compiled with proprietary services (GDrive for ex.) support 
+
 - 
 
 

@@ -2,7 +2,9 @@
 
 
 # Install
-[Official guide from MS](https://learn.microsoft.com/en-us/windows/wsl/install)
+* [Install](https://learn.microsoft.com/en-us/windows/wsl/install)
+* [Import custom distro](https://learn.microsoft.com/en-us/windows/wsl/use-custom-distro)
+
 
 ### HW requirements
 * CPU with: Intel's `Extended Page Table (EPT)` / AMD's `Nested Page Table (NPT)`
@@ -33,10 +35,26 @@ wsl --list --online
 wsl --install <distro-name>
 ```
 
-### WSL behavior 
+### .wslconfig
+Configure global settings across all installed distributions running on WSL 2.
+`%UserProfile%\.wslconfig` apply the configuration settings every time you launch WSL
+```editorconfig
+[wsl2]
+kernel="C:\path\to\kernel"
+```
+
+
+### wsl.conf
+`/etc/wsl.conf`
+
+
+### WSL tips 
+Default distro dir `%USERPROFILE%\AppData\Local\Packages\<PackageName>`
+Default kernel dir `C:\Windows\System32\lxss\tools`
+
 Linux distribution completely stops running 
 and restarts for configuration setting updates to appear.
 This typically takes about 8 seconds after closing 
 ALL instances of the distribution shell.
 
-wsl --list --running
+`wsl --list --running`
